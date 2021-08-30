@@ -20,7 +20,7 @@ console.log(i);</code>
 </pre>
 
 <!--* replacement suggestions -->
-Which React Hook would you use to add state to a function component? answer: useState (wrong: createState, stateHook, useEffect)
+Which React Hook would you use to add state to a function component? answer: useState (wrong: createState, stateHook, useEffect, addState)
 
 
 
@@ -49,20 +49,26 @@ What is the value of <code>this</code> inside a function that has been called wi
 <!--* replacement suggestion -->
 Which of the following snippets of code will return `undefined`?
 
-let x = this;
+<pre><code>let x = this;</code></pre>
 
+<pre><code>
 "use strict";
 let x = this;
+</code></pre>
 
+<pre><code>
 function myFunction() {
   return this;
 }
+</code></pre>
 
 <!-- correct -->
+<pre><code>
 "use strict";
 function myFunction() {
   return this;
 }
+</code></pre>
 
 
 
@@ -134,10 +140,14 @@ var obj = { prop: 'value' };</code>
 ​
 <!--* replacement suggestion -->
 Given the following code, how would you dynamically access the value of the prop key in the obj object?
-```js
+<pre><code>
 const p = 'prop';
 const obj = { prop: 'value' };
-```
+</code></pre>
 ​
 <!-- correct -->
 <code>obj[p]</code>
+<!-- wrong -->
+<code>p[obj]</code>
+<code>obj[prop]</code>
+<code>obj[value]</code>
