@@ -3,8 +3,6 @@ In a Node.js program, what is the name of the global object used to access the c
 __
 
 <!--* replacement suggestions -->
-Node.js runs on the ___ answer: server
-
 Node.js is ___ by default. answer: asynchronous
 
 
@@ -90,8 +88,8 @@ How would you set the value of state for `isLoading` to `true` in a React Class 
 <code>this.setState({isLoading: true})</code>
 <!-- wrong -->
 <code>this.state.isLoading = true</code>
-<code>this.state(isLoading = true)</code>
-<code>this.setState.isLoading = true})</code>
+<code>this.state(isLoading: true)</code>
+<code>this.setState.isLoading = true</code>
 ​
 ​
 
@@ -121,7 +119,8 @@ Node.js is the most widely used ____ environment for backend or server side Java
 <!--? question 28 -->
 In a Node.js program, which event gets triggered when information is being read from a stream, like an HTTP request?
 ​
-<!--TODO replacement suggestion -->
+<!--* replacement suggestions -->
+Node.js runs on the ___ answer: server
 ​
 ​
 ​
